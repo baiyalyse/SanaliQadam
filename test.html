@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SanaliQadam | Тест</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="main-header">
+
+    <div class="header-left">
+        <div class="logo">SanaliQadam</div>
+    </div>
+
+    <div class="header-center">
+        <img src="img/logo1.jpg" class="logo-icon" title="School">
+        <img src="img/logo2.jpeg" class="logo-icon" title="Parliament">
+    </div>
+
+    <nav class="header-nav">
+        <a href="index.html">Басты бет</a>
+        <a href="test.html">Тест</a>
+        <a href="challenge.html">Челлендж</a>
+        <a href="forum.html">Форум</a>
+        <a href="calc.html">Калькулятор</a>
+    </nav>
+
+</header>
+
+		<div class="back-sticky fade">
+		    <a href="index.html" class="back-btn">← Басты бет</a>
+		</div>
+
+<section class="hero fade">
+    <div class="hero-box">
+        <h1>Қаржылық сауаттылық тесті</h1>
+        <p>
+            Бұл тест ақшаға деген көзқарасыңды, логикаңды және базалық қаржылық түсінігіңді тексереді.
+            Соңында нақты балл мен деңгейіңді көресің.
+        </p>
+
+        <div class="hero-badges">
+            <span>🧠 10 сұрақ</span>
+            <span>⏳ 1 минуттан аз</span>
+            <span>📊 балл жүйесі</span>
+        </div>
+    </div>
+</section>
+
+<section class="fade">
+    <div class="test-top card">
+        <div>
+            <h2>Тестілеу</h2>
+            <p>Сұрақтарға жауап беріп, соңында нәтижеңді көр.</p>
+        </div>
+
+        <div class="test-score-box">
+            <div class="test-score-label">Балл</div>
+            <div id="liveScore" class="test-score">0 / 10</div>
+        </div>
+    </div>
+
+    <div class="progress-wrap card">
+        <div class="progress-text">
+            <span id="questionCount">Сұрақ 1 / 10</span>
+            <span id="answeredCount">Жауап берілді: 0</span>
+        </div>
+        <div class="progress-bar">
+            <div id="progressFill" class="progress-fill"></div>
+        </div>
+    </div>
+
+    <div id="quizCard" class="card quiz-card">
+        <div id="questionText" class="quiz-question"></div>
+        <div id="options" class="quiz-options"></div>
+
+        <div class="quiz-controls">
+            <button id="prevBtn" class="quiz-btn secondary">Назад</button>
+            <button id="nextBtn" class="quiz-btn primary">Далее</button>
+            <button id="finishBtn" class="quiz-btn finish">Завершить</button>
+        </div>
+    </div>
+
+    <div id="resultCard" class="card result-card" style="display:none;"></div>
+</section>
+
+<footer>
+    <div class="footer-grid">
+        <div>
+            <h3>SanaliQadam</h3>
+            <p>Оқушыларға арналған қаржылық платформа</p>
+        </div>
+
+        <div>
+            <h4>Байланыс</h4>
+            <p>Email: school@gmail.com</p>
+            <p>Tel: +7 705 *** ** **</p>
+        </div>
+    </div>
+
+    <p class="footer-bottom">© 2026 SanaliQadam</p>
+</footer>
+
+<script src="test.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
